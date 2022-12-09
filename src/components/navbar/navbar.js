@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import {
   Navbarsection,
   Linkscover,
@@ -15,17 +15,7 @@ import {
 } from "./stylenave.js";
 const Navbar = () => {
   const [active, setactive] = useState("");
-  const refone = useRef(null);
-  useEffect((e) => {
-    document.addEventListener("click", handelclickoutside, true);
-  }, []);
-  const handelclickoutside = (e) => {
-    if (refone.current.contains(e.target)) {
-      console.log("in");
-    } else {
-      setactive("clickaout");
-    }
-  };
+
   return (
     <div className="container">
       <Navbarsection>
@@ -36,7 +26,7 @@ const Navbar = () => {
           <Icon active={active} onClick={() => setactive("span")}></Icon>
           <Icon active={active} onClick={() => setactive("span")}></Icon>
 
-          <Ul ref={refone} active={active}>
+          <Ul  active={active}>
             <li className="list-item">
               <Link href="/About">About Us</Link>
             </li>

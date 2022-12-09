@@ -15,9 +15,9 @@ const Features = () => {
    <div className="container">
     <div className="cover">
     <h1>Features You Will Get</h1>
-      {features.map((feature)=>{
+      {features.map((feature , i)=>{
      return(
-<div className="feature" key={feature.id} >
+<div key={i} className="feature"  >
         <i  className={feature.icon}></i>
         <h2>{feature.title}</h2>
         <p>{feature.subject}</p>

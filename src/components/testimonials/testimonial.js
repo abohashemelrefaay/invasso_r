@@ -61,9 +61,9 @@ const Testimonial = () => {
             moveleft={classactive}
           />
           <Testimonaial active={classactive} className="testimonaial">
-            {testimonials.map((testmonaial) => {
+            {testimonials.map((testmonaial , i) => {
               return (
-                <div className="test" key={testmonaial.id}>
+                <div key={i} className="test" >
                   <img src={testmonaial.image} alt="" />
                   <h4>{testmonaial.name}</h4>
                   <h6>{testmonaial.work}</h6>

@@ -9,14 +9,17 @@ const Home = () => {
   useEffect(() => {
     axios.get("jsondata/data.json").then((res) => {
       setHomesection(res.data.Homesection);
-    });
+    })
+  .catch((error)=>{
+    console.log(error);
+  })
   }, []);
-  return (
+  return ( 
     <div className="home">
       <Container1>
-        {Homesection.map((homeitem, i) => {
+        {Homesection.map((homeitem , i) => {
           return (
-            <Containener55 key={homeitem.id} classactive={classactive}>
+            <Containener55 key={i} classactive={classactive}>
               <div className="text">
                 <h5>{homeitem.generaltitle}</h5>
                 <h2>{homeitem.productltitle}</h2>

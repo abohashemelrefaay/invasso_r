@@ -48,42 +48,42 @@
   ],
   "features":[
     {
-      "id":"1",
-      "icon":"icon fa fa-tachometer fa-2x",
-      "title":"title feature",
-      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
-      "button":"read more"
-    },
-    {
-      "id":"2",
-      "icon":"icon fa fa-tachometer fa-2x",
-      "title":"title feature",
-      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
-      "button":"read more"
-    },
-    {
-      "id":"3",
-      "icon":"icon fa fa-tachometer fa-2x",
-      "title":"title feature",
-      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
-      "button":"read more"
-    },
-    {
-      "id":"4",
-      "icon":"icon fa fa-tachometer fa-2x",
-      "title":"title feature",
-      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
-      "button":"read more"
-    },
-    {
-      "id":"5",
-      "icon":"icon fa fa-tachometer fa-2x",
-      "title":"title feature",
-      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
-      "button":"read more"
-    },
-    {
       "id":"6",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"7",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"8",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"9",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"10",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"11",
       "icon":"icon fa fa-tachometer fa-2x",
       "title":"title feature",
       "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
@@ -93,35 +93,35 @@
   ],
   "testmonials":[
     {
-      "id":"1",
+      "id":"12",
       "image":"images/phone4.png",
       "name":"Esther Hills",
       "work":"Lead internet technician",
       "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
     },
     {
-      "id":"1",
+      "id":"13",
       "image":"images/phone4.png",
       "name":"Esther Hills",
       "work":"Lead internet technician",
       "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
     },
     {
-      "id":"1",
+      "id":"14",
       "image":"images/phone4.png",
       "name":"Esther Hills",
       "work":"Lead internet technician",
       "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
     },
     {
-      "id":"2",
+      "id":"15",
       "image":"images/phone4.png",
       "name":"Esther Hills",
       "work":"Lead internet technician",
       "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
     },
     {
-      "id":"3",
+      "id":"16",
       "image":"images/phone4.png",
       "name":"Esther Hills",
       "work":"Lead internet technician",
