@@ -1,0 +1,87 @@
+.testimonials {
+  height: 50vh;
+  position: relative;
+  display: flex;
+}
+.testimonials .cover {
+  display: flex;
+
+  height: 50vh;
+}
+.testimonials::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: rgb(211, 205, 205);
+  position: absolute;
+  left: 50%;
+}
+.testimonials::after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: black;
+  position: absolute;
+}
+
+.testimonials .cover {
+  display: flex;
+}
+.testimonials .cover .test {
+  width: 450px;
+  background: #434446;
+  height: 130px;
+  margin: 30px;
+  border-radius: 25px;
+  z-index: 1;
+  position: relative;
+}
+.testimonials .cover .text {
+  flex: 1;
+  z-index: 2;
+  margin-left: 220px;
+  display: grid;
+  align-content: center;
+}
+.testimonials .cover .text::after {
+  content: ",,";
+  width: 321px;
+  height: 150px;
+  color: white;
+  position: absolute;
+  font-size: 233px;
+  bottom: 330px;
+  left: 27%;
+}
+
+.testimonials .cover .text h2 {
+  color: wheat;
+  z-index: 2;
+  margin: 0;
+  text-align: left;
+}
+
+.testimonials .testimonaial .test img {
+  width: 51px;
+  border: 1px solid #0d2048;
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+.testimonials .testimonaial h4 {
+  display: block;
+  color: aliceblue;
+  margin: 3% 45% 0 0;
+}
+.testimonials .testimonaial h6 {
+  display: block;
+  color: aliceblue;
+  margin: 0% 35% 0 0;
+}
+.testimonials .testimonaial p {
+  float: left;
+  margin-left: 30px;
+  text-align: start;
+  color: aliceblue;
+}

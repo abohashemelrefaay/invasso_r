@@ -1,0 +1,32 @@
+.footer{
+  height: 50vh;
+background: rgba(0, 0, 0, 0.856);
+}
+.footercover{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  color: #fff;
+}
+.footercover .footerlogo{
+text-align: left;
+}
+.footercover .footercontent div{
+  float: left;
+  width: calc(95%/6);
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+ text-align: left;
+ margin-left: 100px;
+}
+.footercover .footercontent div .Social {
+display: grid;
+grid-template-columns: auto auto auto;
+margin-left: 0;
+}
+.footercover .footercontent div .Social i{
+  margin-left: 5px;
+}
+.footer .footerend{
+  text-align: left;
+  margin-top: 20px;
+}

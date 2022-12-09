@@ -1,0 +1,69 @@
+.features{
+  background: rgba(0, 0, 0, 0.363);
+  
+}
+.features h1{
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 80px;
+  transform: translate(0 ,40px);
+
+}
+.features .cover{
+ display: block;
+}
+
+.features .cover .feature{
+  float: left;
+  width:calc(100% / 3 - 30px);
+  background: rgba(67, 68, 70, 0.575);
+  margin: 10px;
+  border-radius: 15px;
+  color: rgb(253, 253, 253);
+  position: relative;
+  height: 200px;
+ 
+}
+.features .cover .feature i{
+  position: absolute;
+left: 124px;
+top: 39px;
+}
+.features .cover .feature h2{
+  margin: 47px -143px -3px -84px;
+  font-size: 15px;
+}
+
+.features .cover .feature p{
+  margin-left: 12px;
+}
+.features .cover .feature button{
+  width: 30%;
+  height: 15%;
+  padding: 3px;
+  margin-left: -8px;
+  color: aliceblue;
+  background: #3b3b3b00;
+  border-radius: 21px;
+  font-weight: bolder;
+  font-family: revert;
+  cursor: pointer;
+  border: 1px solid aliceblue;
+}
+.features .cover .feature button:hover{
+  background: #25252552;
+}
+.features .view{
+  width: 13%;
+  height: 36px;
+  padding: 3px;
+  margin:20px 0 34px 0;
+  color: rgb(59, 60, 61);
+  background: #ffffff;
+  border-radius: 21px;
+  font-weight: bolder;
+  font-family: revert;
+  cursor: pointer;
+  border: 1px solid #43444666;
+  
+}

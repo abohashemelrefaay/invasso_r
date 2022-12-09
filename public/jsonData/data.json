@@ -1,0 +1,133 @@
+{
+  "Homesection": [
+    {
+      "id":"1",
+      "classchange" :"home_cover1",
+      "generaltitle": "New way to create your business solutions",
+      "productltitle": "A Platform Built for Your Business",
+      "description": "Orderitto is afree-to-use platform that provides web and mobile solutions for your business as well as Tech support from the amazing team of Invasso Creative Solutions.",
+      "productimage":"images/phone1.png"
+
+    },
+    {
+      "id":"2",
+      "classchange" :"home_cover2",
+      "generaltitle": "that provides web and mobile solutions",
+      "productltitle": "A Platform Built for Your Business",
+      "description": "Orderitto is afree-to-use platform that provides web and mobile solutions for your business as well as Tech support from the amazing team of Invasso Creative Solutions.",
+      "productimage":"images/phone2.png"
+
+    },
+    {
+      "id":"3",
+      "classchange" :"home_cover3",
+      "generaltitle": "Lorem ipsum, dolor sit amet consectetur",
+      "productltitle": "A Platform Built for Your Business",
+      "description": "Orderitto is afree-to-use platform that provides web and mobile solutions for your business as well as Tech support from the amazing team of Invasso Creative Solutions.",
+      "productimage":"images/phone3.png"
+
+    },
+    {
+      "id":"4",
+      "classchange" :"home_cover4",
+      "generaltitle": "adipisicing elit. Rerum dignissimos",
+      "productltitle": "A Platform Built for Your Business",
+      "description": "Orderitto is afree-to-use platform that provides web and mobile solutions for your business as well as Tech support from the amazing team of Invasso Creative Solutions.",
+      "productimage":"images/phone4.png"
+
+    },
+    {
+      "id":"5",
+      "classchange" :"home_cover5",
+      "generaltitle": "Lorem ipsum, dolor sit amet consectetur",
+      "productltitle": "A Platform Built for Your Business",
+      "description": "Orderitto is afree-to-use platform that provides web and mobile solutions for your business as well as Tech support from the amazing team of Invasso Creative Solutions.",
+      "productimage":"images/phone5.png"
+
+    }
+  ],
+  "features":[
+    {
+      "id":"1",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"2",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"3",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"4",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"5",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    },
+    {
+      "id":"6",
+      "icon":"icon fa fa-tachometer fa-2x",
+      "title":"title feature",
+      "subject":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dignissimos",
+      "button":"read more"
+    }
+
+  ],
+  "testmonials":[
+    {
+      "id":"1",
+      "image":"images/phone4.png",
+      "name":"Esther Hills",
+      "work":"Lead internet technician",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
+    },
+    {
+      "id":"1",
+      "image":"images/phone4.png",
+      "name":"Esther Hills",
+      "work":"Lead internet technician",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
+    },
+    {
+      "id":"1",
+      "image":"images/phone4.png",
+      "name":"Esther Hills",
+      "work":"Lead internet technician",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
+    },
+    {
+      "id":"2",
+      "image":"images/phone4.png",
+      "name":"Esther Hills",
+      "work":"Lead internet technician",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
+    },
+    {
+      "id":"3",
+      "image":"images/phone4.png",
+      "name":"Esther Hills",
+      "work":"Lead internet technician",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque culpa molestias rem"
+    }
+    
+  ]
+    
+}
