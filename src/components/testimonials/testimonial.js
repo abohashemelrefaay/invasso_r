@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import "./styletestimonial.css";
 import {
@@ -11,11 +11,10 @@ import {
 const Testimonial = () => {
   const [testimonials, settestmonials] = useState([]);
   const [classactive, setclassactive] = useState("p1");
-  useEffect(() => {
     axios.get("jsonData/data.json").then((res) => {
       settestmonials(res.data.testmonials);
     });
-  }, []);
+
   return (
     <div className="testimonials">
       <div className="container">

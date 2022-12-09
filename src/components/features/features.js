@@ -1,14 +1,14 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState} from 'react';
 import axios from 'axios';
 import "./stylefeatures.css"
 
 const Features = () => {
  const [features ,setfeatures]=useState([])
- useEffect(() => {
+
   axios.get("jsonData/data.json").then((res) => {
     setfeatures(res.data.features);  
   });
-}, []);
+
 
   return (
     <div className='features'>

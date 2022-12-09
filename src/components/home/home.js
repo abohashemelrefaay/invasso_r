@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import "./home.css";
 import { Containener55, Container1, Layoutspan, Span } from "./stylehome.js";
@@ -6,14 +6,10 @@ const Home = () => {
   const [Homesection, setHomesection] = useState([]);
   const [classactive, setclassactive] = useState("p1");
 
-  useEffect(() => {
     axios.get("jsondata/data.json").then((res) => {
       setHomesection(res.data.Homesection);
     })
-  .catch((error)=>{
-    console.log(error);
-  })
-  }, []);
+
   return ( 
     <div className="home">
       <Container1>
