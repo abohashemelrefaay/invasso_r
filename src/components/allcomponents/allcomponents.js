@@ -12,7 +12,7 @@ import Business from '../business/business';
 const Allcomponents = () => {
   return (
     <React.Fragment>
-    < Home /> 
+   
     < Work />
     < Mango />
     < Services />
