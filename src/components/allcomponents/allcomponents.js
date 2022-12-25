@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../home/home';
+
 import Work from '../work/work';
 import Mango from '../manageplatform/manage';
 import Services from '../services/services';
