@@ -11,10 +11,10 @@ const Home = () => {
       setHomesection(res.data.Homesection);
     });
   }, []);
-  return ( 
+  return (
     <div className="home">
       <Container1>
-        {Homesection.map((homeitem , i) => {
+        {Homesection.map((homeitem, i) => {
           return (
             <Containener55 key={i} classactive={classactive}>
               <div className="text">
@@ -31,7 +31,7 @@ const Home = () => {
               <div className="images">
                 <img src={homeitem.productimage} alt="" />
               </div>
-              <Layoutspan>
+   <Layoutspan>
                 <Span
                   onClick={() => setclassactive("p1")}
                   active={classactive}
@@ -55,8 +55,8 @@ const Home = () => {
               </Layoutspan>
             </Containener55>
           );
-        })}
-        ;
+        })};
+       
       </Container1>
     </div>
   );
