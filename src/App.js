@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
-          <Route exact path="/" element={<Allcomponents />} />
+          <Route exact path="/..." element={<Allcomponents />} />
           <Route exact path="/About" element={<Business />} />
           <Route exact path="/Services" element={<Services />} />
           <Route exact path="/Pricing" element={<Price />} />
